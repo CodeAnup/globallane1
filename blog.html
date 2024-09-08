@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="Globallane.png" alt="Global Lane Logo" class="logo me-2" style="height: 40px;">
+                    <span> Global Lane</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="padding: 9px 0 9px 0;">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="padding-right: 30px;">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about.html" style="padding-right: 40px;">About
+                                Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html"
+                                style="padding-right: 40px;">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html"
+                                style="padding-right: 40px;">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="trade-resources.html"
+                                style="padding-right: 40px;">Trade Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html"
+                                style="padding-right: 40px;">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="client-portal.html"
+                                style="padding-right: 40px;">Client Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- cards -->
+    <div class="container py-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-auto">
+                <div class="card text-center bg-light mb-4">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Emily Johnson</h5>
+                        <p class="card-text">Navigating International Trade Regulations: What You Need to Know.</p>
+                        <button type="button" class="btn btn-primary" id="openModalBtn">Read more</button>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                        2 days ago
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="card text-center bg-light mb-4">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Brown</h5>
+                        <p class="card-text">Innovative Strategies for Sustainable Business Growth</p>
+                        <button type="button" class="btn btn-primary" id="openModalBtn1">Read more</button>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                        2 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Blog</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Understanding international trade regulations can be complex. This post provides a comprehensive
+                    guide to navigating the regulatory landscape and ensuring compliance in your global business
+                    operations.
+
+                    Whether you're exporting goods or importing raw materials, staying compliant with international
+                    trade laws is crucial to avoid costly fines, delays, and disruptions. This guide covers essential
+                    topics such as customs procedures, tariffs, trade agreements, and import/export restrictions. You'll
+                    also learn about the importance of understanding the regulations in different regions, how to
+                    classify your products correctly, and tips for working with customs brokers and legal advisors. By
+                    following these best practices, you can streamline your operations, minimize risks, and achieve
+                    success in the global market.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Blog</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Explore innovative strategies that can drive sustainable growth in your business. Learn about best
+                    practices, emerging trends, and actionable tips to ensure long-term success.
+
+                    Sustainable growth requires a focus on balancing profitability with social and environmental
+                    responsibility. Embracing digital transformation, investing in renewable energy, and optimizing
+                    resource use are just a few strategies that can help. Additionally, fostering a culture of
+                    innovation within your organization, prioritizing customer-centric approaches, and leveraging data
+                    analytics for informed decision-making are essential steps. Staying ahead of industry trends and
+                    adopting flexible business models will enable your company to adapt to changing market demands and
+                    create a resilient, future-ready enterprise that thrives in the long term.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="blog.js"></script>
+</body>
+
+</html>
